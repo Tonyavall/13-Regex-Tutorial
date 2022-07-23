@@ -1,6 +1,7 @@
 # Regex Tutorial
 
-A simple guide on how to use regex.
+To see revisions please see the original gist.
+The original gist is [here.](https://gist.github.com/Tonyavall/fabb4a74fc417442174bce27dde973ec)
 
 ## Summary
 
