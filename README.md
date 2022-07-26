@@ -1,7 +1,6 @@
 # Regex Tutorial
 
-To see revisions please see the original gist.
-The original gist is [here.](https://gist.github.com/Tonyavall/fabb4a74fc417442174bce27dde973ec)
+A simple guide on how to use regex.
 
 ## Summary
 
@@ -229,14 +228,14 @@ There are only 6 flags in javascript:
     
         const string = 'I love pizza. Love olives. LovE them all!'
 
-    1. g - Makes the search look for ALL matches
-        string.match(/love/g)   //  returns love, Love, LovE  
+    1. g - Makes the search look for ALL matches. Is case sensitive.
+        string.match(/love/g)   //  returns love
 
-    2. i - Makes the search case sensitive
-        string.match(/Love/i)   //  returns Love, skips over love
+    2. i - Makes the search case INsensitive
+        string.match(/Love/i)   //  returns love
 
     They are often used together...
-        string.match(/LovE/ig) // returns LovE
+        string.match(/LovE/ig) // returns love, Love, LovE
 
     Other flags include...
     3. m - [Multiline Mode](https://javascript.info/regexp-multiline-mode)    
